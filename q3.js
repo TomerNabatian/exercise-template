@@ -2,14 +2,19 @@ function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
     let out = "";
-check = function(input) {
-if(input=Array)
-return true;
-else
-return false;
 
+function fElement(arr) {
+    for(i=0;i<arr.length();i++){
+        console.log(arr[i])
+    }
 }
-    
+
+
+
+
+
+
+
 
 
     output.innerText = out;
